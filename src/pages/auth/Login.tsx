@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import bg from "../../assets/bg.png";
 
 const Login = () => {
@@ -33,9 +34,9 @@ const Login = () => {
         </a>
         <div className=" flex gap-2 w-full items-center justify-center text-white">
           <span>Don't have an account</span>
-          <a href="/register" className=" text-purple-300">
+          <Link to="/register" className=" text-purple-300">
             Register
-          </a>
+          </Link>
         </div>
       </div>
     </section>
