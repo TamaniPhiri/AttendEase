@@ -1,6 +1,11 @@
+import bg from "../../assets/bg.png";
+
 const Login = () => {
   return (
-    <section className="min-h-screen w-full px-4 flex flex-col md:px-12 items-center justify-center">
+    <section
+      style={{ backgroundImage: `url(${bg})` }}
+      className="min-h-screen w-full px-4 flex bg-cover bg-center bg-no-repeat flex-col md:px-12 items-center justify-center"
+    >
       <h1 className=" font-bold text-2xl">
         Attend<span className=" text-purple-500">Ease</span>
       </h1>
