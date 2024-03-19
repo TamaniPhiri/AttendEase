@@ -4,7 +4,7 @@ const Login = () => {
   return (
     <section
       style={{ backgroundImage: `url(${bg})` }}
-      className="min-h-screen w-full px-4 flex bg-cover bg-center bg-opacity-50 bg-no-repeat flex-col md:px-12 items-center justify-center"
+      className="min-h-screen w-full px-4 flex bg-cover bg-center bg-no-repeat flex-col md:px-12 items-center justify-center"
     >
       <h1 className="text-white font-bold text-2xl">
         Attend<span className=" text-purple-500">Ease</span>
