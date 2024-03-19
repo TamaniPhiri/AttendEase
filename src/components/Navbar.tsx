@@ -1,5 +1,20 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
-  return <nav>nav</nav>;
+  return (
+    <nav className=" bg-purple-300 w-full px-4 md:px-12F">
+      <div>
+        <h1 className="text-white font-bold text-2xl">
+          Attend<span className=" text-purple-500">Ease</span>
+        </h1>
+      </div>
+      <div>
+        <Link to={"/home"}>link 1</Link>
+        <Link to={"/home"}>link 2</Link>
+        <Link to={"/home"}>link 3</Link>
+      </div>
+    </nav>
+  );
 };
 
 export default Navbar;
