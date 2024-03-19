@@ -31,7 +31,7 @@ const Login = () => {
         >
           Login
         </a>
-        <div className=" flex gap-2 w-full items-center justify-center">
+        <div className=" flex gap-2 w-full items-center justify-center text-white">
           <span>Don't have an account</span>
           <a href="/register">Register</a>
         </div>
