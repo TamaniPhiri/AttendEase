@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className=" bg-purple-600 w-full px-4 md:px-12F">
+    <nav className=" bg-purple-600 w-full px-4 md:px-12 flex items-center py-4 justify-between">
       <div>
         <h1 className="text-white font-bold text-2xl">
           Attend<span className=" text-purple-500">Ease</span>
