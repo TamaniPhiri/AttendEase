@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className=" bg-purple-600 w-full px-4 md:px-12F">
       <div>
-        <h1 className="text-black font-bold text-2xl">
+        <h1 className="text-white font-bold text-2xl">
           Attend<span className=" text-purple-500">Ease</span>
         </h1>
       </div>
