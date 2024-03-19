@@ -8,7 +8,7 @@ const Navbar = () => {
           Attend<span className=" text-[#002233]">Ease</span>
         </h1>
       </div>
-      <div className=" flex items-center gap-8 text-white">
+      <div className=" flex items-center md:gap-8 gap-4 text-white">
         <Link to={"/home"}>link 1</Link>
         <Link to={"/home"}>link 2</Link>
         <Link to={"/home"}>link 3</Link>
