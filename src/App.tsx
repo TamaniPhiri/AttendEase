@@ -6,8 +6,8 @@ import Home from "./pages/Home";
 function App() {
   return (
     <Routes>
-      <Route path="/login" Component={Login} />
-      <Route path="/" Component={Home} />
+      <Route path="/" Component={Login} />
+      <Route path="/home" Component={Home} />
     </Routes>
   );
 }

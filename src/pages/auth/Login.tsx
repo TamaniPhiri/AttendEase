@@ -21,7 +21,7 @@ const Login = () => {
           className=" border focus:outline-none md:p-4 p-3 focus:outline-purple-400"
         />
         <a
-          href="/"
+          href="/home"
           className=" md:p-4 p-3 hover:bg-purple-500 text-center font-semibold bg-purple-600 text-white"
         >
           Login
