@@ -6,7 +6,7 @@ const Login = () => {
       style={{ backgroundImage: `url(${bg})` }}
       className="min-h-screen w-full px-4 flex bg-cover bg-center bg-no-repeat flex-col md:px-12 items-center justify-center"
     >
-      <h1 className=" font-bold text-2xl">
+      <h1 className="text-white font-bold text-2xl">
         Attend<span className=" text-purple-500">Ease</span>
       </h1>
       <div className="lg:max-w-sm flex flex-col w-full gap-4 my-6">
